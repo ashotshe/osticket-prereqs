@@ -35,24 +35,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 1.) The first thing you are going to want to do is create a virtual machine by going to https://portal.azure.com/. Setup your virtual machine with Windows 10 Pro, version 22H2. 
         Note, you will want to create a virtual machine with atleast 2 vcpus and 8 gbs of memory.
-  Open Azure and navigate to Virtual Machines.
-
+        1. Open Azure and navigate to Virtual Machines.
 	2.	Click Create a Virtual Machine.
-
 	3.	Choose or create a Resource Group (name it as you prefer).
-
 	4.	Select your desired Region.
-
 	5.	Under Image, choose Windows 10 Pro.
-
 	6.	Select an appropriate size—I recommend at least 2 vCPUs for better performance.
-
 	7.	Create a Username and Password (e.g., labuser and Cyberlab123!).
-
 	8.	Complete the remaining settings as needed, then click Create to deploy the virtual machine.
-
 	9.	Once the VM is up and running, navigate to its home screen and locate the Public IP Address.
-
 	10.	Use Remote Desktop (RDP) to connect to the virtual machine using the public IP, along with the username and password you created.
 
 ---
