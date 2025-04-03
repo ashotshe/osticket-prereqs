@@ -33,7 +33,38 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 
-1.) The first thing you are going to want to do is create a virtual machine by going to https://portal.azure.com/. Setup your virtual machine with Windows 10 Pro, version 22H2. Note, you will want to create a virtual machine with atleast 2 vcpus and 16 gbs of memory.
+1.) The first thing you are going to want to do is create a virtual machine by going to https://portal.azure.com/. Setup your virtual machine with Windows 10 Pro, version 22H2. 
+        Note, you will want to create a virtual machine with atleast 2 vcpus and 8 gbs of memory.
+  Open Azure and navigate to Virtual Machines.
+
+	2.	Click Create a Virtual Machine.
+
+	3.	Choose or create a Resource Group (name it as you prefer).
+
+	4.	Select your desired Region.
+
+	5.	Under Image, choose Windows 10 Pro.
+
+	6.	Select an appropriate size—I recommend at least 2 vCPUs for better performance.
+
+	7.	Create a Username and Password (e.g., labuser and Cyberlab123!).
+
+	8.	Complete the remaining settings as needed, then click Create to deploy the virtual machine.
+
+	9.	Once the VM is up and running, navigate to its home screen and locate the Public IP Address.
+
+	10.	Use Remote Desktop (RDP) to connect to the virtual machine using the public IP, along with the username and password you created.
+
+---
+
+ 
+![ade1](https://github.com/user-attachments/assets/d4fb92ed-bfff-4a5d-8360-129bbbc8e1d6)
+![ade2](https://github.com/user-attachments/assets/4cf99ac6-b259-4c49-95f7-71f864e9f6e8)
+![ade3](https://github.com/user-attachments/assets/094eb878-0b0f-474c-9902-4293cb6de831)
+![a4](https://github.com/user-attachments/assets/693dddb3-c309-45e4-b363-98ff9a773473)
+![ade5](https://github.com/user-attachments/assets/7e0a10f7-3440-4834-ab3c-5043f76a0e0a)
+
+---
 
 2.) Once you have created your virtual machine you will want to conncet to it by using the public ip address the vm is setup with. You will connect using the remote desktop connection app. 
 </p>
