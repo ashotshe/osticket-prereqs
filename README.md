@@ -330,7 +330,9 @@ Select a principal
 <p>
   
   When the program is open we will create a new session in it.
-  
+---
+![ade26](https://github.com/user-attachments/assets/e3a567ee-c895-47d7-95c0-856b77190e2f)
+---
 <p>
 <img src="https://imgur.com/g5M1i61.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
@@ -342,7 +344,10 @@ Select a principal
 <img src="https://imgur.com/LEAZNOc.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  
+---
+![ade27](https://github.com/user-attachments/assets/0229ac6f-8371-407b-b327-7a4f0bfb9527)
+![ade28](https://github.com/user-attachments/assets/5c1a57bd-8fc5-4a61-a942-6288fe300bc0)
+---
   Once we are connected to the session we will go back to the browser to finish setting everything up. Under the Database Settings in the browser the username will be root and the password will be Password1.
   
   We will now create a new database within HeidiSQL. In Heidi right click on the left side where is says "Unnamed", select "create new", and then select "database". Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MySQL Database type in osTicket.
@@ -369,20 +374,12 @@ Select a principal
 <p>
   
   The last step after that is to login to osTicket on the browser.
-  
+---
+![ade29](https://github.com/user-attachments/assets/785e3831-02ce-4426-bce4-df0e789887df)
+---
 <p>
 <img src="https://imgur.com/uHVdDsx.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
----
-![ade25](https://github.com/user-attachments/assets/60a8db73-7990-4f61-b0f8-7af09b7d89fe)
-![a40](https://github.com/user-attachments/assets/530e6e4c-ae9e-4ad6-b8e9-d29336bd2d58)
-![ade26](https://github.com/user-attachments/assets/e3a567ee-c895-47d7-95c0-856b77190e2f)
-![a42](https://github.com/user-attachments/assets/b6839f55-df83-4f38-ba2e-7d7321d84546)
-![ade27](https://github.com/user-attachments/assets/0229ac6f-8371-407b-b327-7a4f0bfb9527)
-![ade28](https://github.com/user-attachments/assets/5c1a57bd-8fc5-4a61-a942-6288fe300bc0)
-![a45](https://github.com/user-attachments/assets/8e99c021-9e0f-4f80-bb1b-bffd5874dbef)
-![ade29](https://github.com/user-attachments/assets/785e3831-02ce-4426-bce4-df0e789887df)
----
   Congrats! You have now successfully installed and setup osTicket!
