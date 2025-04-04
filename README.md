@@ -104,9 +104,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
   
 4.) You will want to install / enable IIS in Windows with CGI and Common HTTP Features
-  - World Wide Web Services -> Application Development Features -> 
-[X] CGI
-[X] Common HTTP Features
+  - Navigate to: Internet Information Services (IIS) -> World Wide Web Services -> Application Development Features -> Check the box for [X] CGI  and [X] Common HTTP Features, then click OK.
   
 <p>
 <img src="https://imgur.com/LQjw9le.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -154,7 +152,11 @@ If this appears, choose to “Keep” the file:
 <p>
 
 9.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe. 
-  
+---
+![ade12](https://github.com/user-attachments/assets/ed13d3c1-cee8-494b-95b2-36945b7ef696)
+![a15](https://github.com/user-attachments/assets/9609f915-8e98-4b72-97f0-61c6fba8e239)
+![a16](https://github.com/user-attachments/assets/8ab6b478-9a95-4c34-bb4a-7db6d3b2c854)
+---
 10.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
   Run the setup wizard:
 Typical Setup ->
@@ -217,17 +219,18 @@ You will want to provide a path to the php executable file (php-cgi.exe)).
   -Download osTicket from the Installation Files Folder
   -Extract and copy "upload" folder to c:\inetpub\wwwroot
   -Within c:\inetpub\root, Rename "upload" to "osTicket"
-  
+---
+![ade16](https://github.com/user-attachments/assets/2a23b13b-b6a8-4392-91d6-5cacddb3937e)
+![ade17](https://github.com/user-attachments/assets/8679b806-a1e0-4c9c-8d73-37b7329f8836)
+![ade18](https://github.com/user-attachments/assets/4ee9906a-88cd-416d-9c59-ae99587ab691)
+---
   Reload IIS again.
   
 14.) On IIS go to sites -> Default -> osTicket
   -On the right, click “Browse *:80”
   
-<p>
-<img src="https://imgur.com/Yw55d5b.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-  
+![ade19](https://github.com/user-attachments/assets/49b376de-8ee2-4c60-9a86-196e72d18268)
+
   Some extensions are not enabled on the osTicket browser.
   
 <p>
@@ -272,7 +275,12 @@ You will want to provide a path to the php executable file (php-cgi.exe)).
   Now that we have renamed the files, right click on the file and go to properties.
   From there click security, click on advance, and disable the inheritance.
   We will select Remove all inherited permissions from this object.
-  
+---
+![ade22](https://github.com/user-attachments/assets/d4586b30-ffe6-4f49-b19f-056dba724116)
+![a35](https://github.com/user-attachments/assets/40138abd-e1e7-4a4f-bfc7-3b3297031842)
+![ade23](https://github.com/user-attachments/assets/ba9d74b4-dce1-43cb-916f-f15da22db145)
+![ade24](https://github.com/user-attachments/assets/c9cac959-9527-415e-82bf-f01be1dcee89)
+---
   Now we will add new permissions.
   
   Click Add
@@ -366,5 +374,15 @@ Select a principal
 <img src="https://imgur.com/uHVdDsx.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  
+
+---
+![ade25](https://github.com/user-attachments/assets/60a8db73-7990-4f61-b0f8-7af09b7d89fe)
+![a40](https://github.com/user-attachments/assets/530e6e4c-ae9e-4ad6-b8e9-d29336bd2d58)
+![ade26](https://github.com/user-attachments/assets/e3a567ee-c895-47d7-95c0-856b77190e2f)
+![a42](https://github.com/user-attachments/assets/b6839f55-df83-4f38-ba2e-7d7321d84546)
+![ade27](https://github.com/user-attachments/assets/0229ac6f-8371-407b-b327-7a4f0bfb9527)
+![ade28](https://github.com/user-attachments/assets/5c1a57bd-8fc5-4a61-a942-6288fe300bc0)
+![a45](https://github.com/user-attachments/assets/8e99c021-9e0f-4f80-bb1b-bffd5874dbef)
+![ade29](https://github.com/user-attachments/assets/785e3831-02ce-4426-bce4-df0e789887df)
+---
   Congrats! You have now successfully installed and setup osTicket!
